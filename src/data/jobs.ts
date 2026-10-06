@@ -1,0 +1,141 @@
+import type { JobPosting } from "@/types";
+
+export const jobs: JobPosting[] = [
+  {
+    id: "j-1",
+    slug: "site-engineer-sipil",
+    title: "Site Engineer — Civil",
+    department: "Divisi Konstruksi",
+    location: "Jakarta (site proyek)",
+    type: "full-time",
+    salary: "Rp 8 – 12 juta/bulan",
+    deadline: "2025-10-31",
+    isNew: true,
+    description:
+      "Bergabunglah sebagai Site Engineer yang bertanggung jawab atas pelaksanaan teknis pekerjaan sipil di proyek konstruksi kami, memastikan setiap tahap sesuai spesifikasi, jadwal, dan standar K3.",
+    responsibilities: [
+      "Menyusun dan mengawasi pelaksanaan kerja harian di lapangan",
+      "Menginterpretasikan gambar kerja dan spesifikasi teknis",
+      "Melakukan quality control pekerjaan struktur dan arsitektur",
+      "Mengontrol pemakaian material dan alat sesuai rencana",
+      "Menyusun laporan progres harian dan mingguan",
+      "Koordinasi dengan mandor, subkontraktor, dan pengawas",
+    ],
+    qualifications: [
+      "S1 Teknik Sipil, IPK minimal 3.00",
+      "Pengalaman 3-5 tahun di proyek gedung/industri",
+      "Memahami gambar kerja, metode pelaksanaan, dan perhitungan volume",
+      "Memiliki sertifikat K3 (wajib) dan trainning BIM (nilai plus)",
+      "Bersedia ditempatkan di site dan siap lembur",
+      "Mahir AutoCAD/SketchUp dan MS Office",
+    ],
+    benefits: [
+      "Gaji kompetitif sesuai kualifikasi",
+      "Tunjangan transportasi & makan harian",
+      "Asuransi kesehatan swasta",
+      "Tunjangan BPJS Ketenagakerjaan & Kesehatan",
+      "Kesempatan sertifikasi profesi ditanggung perusahaan",
+      "Jenjang karir yang jelas",
+    ],
+  },
+  {
+    id: "j-2",
+    slug: "safety-officer",
+    title: "Safety Officer",
+    department: "Divisi HSE",
+    location: "Cikarang, Jawa Barat",
+    type: "full-time",
+    salary: "Rp 7 – 10 juta/bulan",
+    deadline: "2025-10-15",
+    isNew: true,
+    description:
+      "Kami mencari Safety Officer untuk memastikan seluruh aktivitas proyek berjalan sesuai regulasi K3, menciptakan lingkungan kerja yang aman dan bebas insiden.",
+    responsibilities: [
+      "Melakukan inspeksi K3 harian dan hazard identification",
+      "Menyusun dan melaksanakan program safety induction",
+      "Memfasilitasi toolbox meeting dan pelatihan K3",
+      "Mengawasi penggunaan APD dan kepatuhan prosedur",
+      "Mengelola laporan kecelakaan dan investigasi insiden",
+      "Berkoordinasi dengan site management dan pihak ketiga",
+    ],
+    qualifications: [
+      "Minimal D3/S1 Teknik atau K3",
+      "Memiliki sertifikat K3 Umum (Kemnaker) — wajib",
+      "Pengalaman 2-4 tahun di proyek konstruksi",
+      "Memahami regulasi K3, SMK3, dan CSMS",
+      "Komunikatif, tegas, dan berjiwa kepemimpinan",
+    ],
+    benefits: [
+      "Gaji kompetitif",
+      "Tunjangan area & transportasi",
+      "Asuransi kesehatan & ketenagakerjaan",
+      "Fasilitas pelatihan K3 lanjutan",
+    ],
+  },
+  {
+    id: "j-3",
+    slug: "estimator-bim",
+    title: "Estimator & BIM Modeler",
+    department: "Divisi Engineering",
+    location: "Jakarta (HQ) / Hybrid",
+    type: "full-time",
+    salary: "Rp 9 – 14 juta/bulan",
+    deadline: "2025-11-15",
+    isNew: false,
+    description:
+      "Bergabunglah di tim engineering untuk menyusun estimasi biaya proyek, quantity take-off, serta pemodelan BIM untuk mendukung proses penawaran dan pelaksanaan.",
+    responsibilities: [
+      "Menyusun Bill of Quantity dan RAB dari gambar kerja",
+      "Melakukan quantity take-off dengan aplikasi BIM",
+      "Membuat model 3D dan clash detection lintas disiplin",
+      "Mendukung tim tender dalam penyusunan penawaran",
+      "Melakukan analisis harga satuan dan benchmarking material",
+    ],
+    qualifications: [
+      "S1 Teknik Sipil atau Arsitektur",
+      "Pengalaman 2-5 tahun sebagai estimator/QTO",
+      "Mahir Revit/Autodesk dan software take-off",
+      "Memahami trade manajemen dan harga satuan pekerjaan",
+      "Teliti, analitis, serta mampu bekerja di bawah tenggat",
+    ],
+    benefits: [
+      "Gaji kompetitif + bonus kinerja",
+      "Kesempatan kerja hybrid (3 hari WFO)",
+      "Fasilitas komputer workstation & lisensi software",
+      "Pengembangan profesi & sertifikasi BIM ditanggung perusahaan",
+    ],
+  },
+  {
+    id: "j-4",
+    slug: "magang-qhse",
+    title: "Internship — Quality, Health, Safety & Environment",
+    department: "Divisi QHSE",
+    location: "Jakarta / Site",
+    type: "internship",
+    salary: "Uang saku + sertifikat",
+    deadline: "2025-12-01",
+    isNew: false,
+    description:
+      "Program magang 3-6 bulan bagi mahasiswa aktif yang ingin mendalami manajemen mutu, keselamatan, kesehatan kerja, dan lingkungan di industri konstruksi.",
+    responsibilities: [
+      "Mendukung pendataan dan pengarsipan dokumen QHSE",
+      "Membantu pelaksanaan inspeksi dan audit internal",
+      "Mendukung penyusunan laporan K3 proyek",
+      "Mengikuti kegiatan lapangan bersama tim QHSE",
+    ],
+    qualifications: [
+      "Mahasiswa aktif S1 Teknik Sipil/K3/lingkungan (minimal semester 6)",
+      "Bersedia magang penuh waktu selama 3-6 bulan",
+      "Aktif, teliti, dan mau belajar di lapangan",
+      "Nilai akademik minimal 3.00",
+    ],
+    benefits: [
+      "Uang saku bulanan & tunjangan transportasi",
+      "Sertifikat magang dan pengalaman proyek nyata",
+      "Kesempatan direkrut menjadi karyawan tetap",
+    ],
+  },
+];
+
+export const getJobBySlug = (slug: string): JobPosting | undefined =>
+  jobs.find((j) => j.slug === slug);

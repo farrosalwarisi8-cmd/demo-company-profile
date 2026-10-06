@@ -1,0 +1,163 @@
+import type { PortfolioItem } from "@/types";
+
+export const portfolioItems: PortfolioItem[] = [
+  {
+    id: "prj-1",
+    slug: "pabrik-makanan",
+    title: "Pabrik Pengolahan Makanan — Cikarang",
+    category: "konstruksi",
+    client: "PT Cemilan Nikmat Indonesia",
+    location: "Cikarang, Jawa Barat",
+    year: 2024,
+    duration: "14 bulan",
+    value: "120000000000",
+    thumbnail: "/images/portfolio/project-1.jpg",
+    heroImage: "/images/portfolio/project-1.jpg",
+    gallery: ["/images/portfolio/project-1.jpg", "/images/portfolio/project-2.jpg", "/images/portfolio/project-3.jpg"],
+    problem:
+      "Klien membutuhkan pabrik baru seluas 8.000 m² dengan standar food safety (FSSC 22000), area bersih (cleanroom), dan target operasional penuh dalam 14 bulan tanpa mengganggu jalur produksi existing.",
+    solution:
+      "Kami menerapkan metode pelaksanaan paralel, zoning konstruksi agar area produksi lama tetap beroperasi, serta pemasangan sistem HVAC dan cleanroom bersama tim MEP terintegrasi. Progres dipantau melalui rapat mingguan dan pelaporan digital.",
+    impact: [
+      "Serah terima tepat waktu tanpa klaim penalti",
+      "Sertifikasi FSSC 22000 tercapai pada commissioning pertama",
+      "Tidak ada kejadian kecelakaan kerja (zero accident)",
+      "Efisiensi biaya 4% dari rencana anggaran",
+    ],
+    relatedServiceSlug: "konstruksi-bangunan",
+    tags: ["Pabrik", "Food Grade", "MEP", "Cleanroom"],
+  },
+  {
+    id: "prj-2",
+    slug: "jalan-tol-perkotaan",
+    title: "Pembangunan Jalan Tol Perkotaan Seksi 2",
+    category: "infrastruktur",
+    client: "PT Jalan Nusantara Tol",
+    location: "Jakarta, DKI Jakarta",
+    year: 2023,
+    duration: "18 bulan",
+    value: "450000000000",
+    thumbnail: "/images/portfolio/project-2.jpg",
+    heroImage: "/images/portfolio/project-2.jpg",
+    gallery: ["/images/portfolio/project-2.jpg", "/images/portfolio/project-1.jpg", "/images/portfolio/project-4.jpg"],
+    problem:
+      "Pekerjaan struktur elevated jalan tol sepanjang 6,2 km di kawasan padat penduduk dengan lahan sempit serta tuntutan meminimalkan gangguan lalu lintas eksisting.",
+    solution:
+      "Menggunakan metode segmental launching untuk mengurangi pekerjaan di atas tanah, pengaturan waktu kerja yang disesuaikan dengan rekayasa lalu lintas, dan pemasangan barrier K3 di sepanjang koridor kerja.",
+    impact: [
+      "Struktur rampung 2 minggu lebih cepat dari jadwal",
+      "Indeks kepadatan lalu lintas terjaga di bawah batas toleransi",
+      "Kepatuhan 100% terhadap spesifikasi mutu jalan (SNI)",
+      "Penerapan K3 dengan 1.500.000 jam kerja aman",
+    ],
+    relatedServiceSlug: "manajemen-proyek",
+    tags: ["Jalan Tol", "Struktur Elevated", "Lalu Lintas", "K3"],
+  },
+  {
+    id: "prj-3",
+    slug: "kantor-bank",
+    title: "Gedung Kantor Bank Nusantara Sejahtera",
+    category: "konstruksi",
+    client: "Bank Nusantara Sejahtera",
+    location: "Surabaya, Jawa Timur",
+    year: 2023,
+    duration: "11 bulan",
+    value: "96000000000",
+    thumbnail: "/images/portfolio/project-3.jpg",
+    heroImage: "/images/portfolio/project-3.jpg",
+    gallery: ["/images/portfolio/project-3.jpg", "/images/portfolio/project-4.jpg", "/images/portfolio/project-2.jpg"],
+    problem:
+      "Pembangunan gedung kantor regional 12 lantai di tengah kawasan bisnis yang beroperasi penuh, dengan tuntutan gedung hijau (greenship gold) dan sistem keamanan data center terintegrasi.",
+    solution:
+      "Koordinasi ketat dengan manajemen gedung dan renovasi dua fase. Penerapan teknologi beton high-strength untuk mempercepat siklus pelat, serta sistem pencahayaan dan AC hemat energi untuk memenuhi kriteria greenship.",
+    impact: [
+      "Predikat Greenship Gold diraih pada tahap desain",
+      "Menghemat 18% konsumsi energi gedung",
+      "Operasional cabang lama tidak terganggu selama konstruksi",
+      "Dokumentasi as-built lengkap dalam 30 hari pasca serah terima",
+    ],
+    relatedServiceSlug: "konsultasi-teknik",
+    tags: ["Gedung", "Greenship", "Data Center", "12 Lantai"],
+  },
+  {
+    id: "prj-4",
+    slug: "gudang-logistik",
+    title: "Gudang Pusat Logistik 25.000 m² — Karawang",
+    category: "konstruksi",
+    client: "PT Sarana Logistik Global",
+    location: "Karawang, Jawa Barat",
+    year: 2022,
+    duration: "9 bulan",
+    value: "180000000000",
+    thumbnail: "/images/portfolio/project-4.jpg",
+    heroImage: "/images/portfolio/project-4.jpg",
+    gallery: ["/images/portfolio/project-4.jpg", "/images/portfolio/project-1.jpg", "/images/portfolio/project-3.jpg"],
+    problem:
+      "Klien membutuhkan gudang high-bay dengan struktur portal baja bentang lebar, loading dock otomatis, dan sistem fire suppression, dalam tempo 9 bulan karena keterbatasan sewa gudang eksisting.",
+    solution:
+      "Pre-fabrikasi baja di workshop dengan toleransi ketat, pemasangan crane untuk percepatan erection, dan koordinasi paralel dengan vendor sistem sprinkler serta otomasi dock.",
+    impact: [
+      "Masa konstruksi 9 bulan — sesuai target kontrak",
+      "Sertifikat keamanan kebakaran tuntas saat serah terima",
+      "Tanpa rework struktural mayor (first time quality 99,2%)",
+      "Kapasitas komisioning gudang penuh dalam 1 bulan",
+    ],
+    relatedServiceSlug: "pengadaan-material",
+    tags: ["Gudang", "Portal Baja", "Logistik", "Fire System"],
+  },
+  {
+    id: "prj-5",
+    slug: "rumah-sakit",
+    title: "Renovasi & Perluasan Rumah Sakit Medika Prima",
+    category: "renovasi",
+    client: "Rumah Sakit Medika Prima",
+    location: "Bandung, Jawa Barat",
+    year: 2023,
+    duration: "8 bulan",
+    value: "54000000000",
+    thumbnail: "/images/portfolio/project-1.jpg",
+    heroImage: "/images/portfolio/project-1.jpg",
+    gallery: ["/images/portfolio/project-1.jpg", "/images/portfolio/project-3.jpg", "/images/portfolio/project-4.jpg"],
+    problem:
+      "Perluasan IGD dan lantai rawat inap seluas 4.500 m² pada rumah sakit yang tetap beroperasi 24 jam, dengan tuntutan kontrol infeksi dan privasi pasien.",
+    solution:
+      "Pekerjaan dibagi dalam zona yang diisolasi dengan drywall dan pressure differential. Aktivitas bising dibatasi di jam tertentu, dan area isolasi menggunakan sistem HVAC terpisah untuk memenuhi standar isolasi.",
+    impact: [
+      "Operasional RS tidak pernah berhenti (0 hari tutup)",
+      "Audit akreditasi lulus tanpa temuan mayor",
+      "Ekspansi IGD rampung 2 minggu lebih cepat",
+      "Kepuasan pasien dan pengunjung terjaga (survei internal)",
+    ],
+    relatedServiceSlug: "konstruksi-bangunan",
+    tags: ["Rumah Sakit", "Renovasi", "HVAC", "Akreditasi"],
+  },
+  {
+    id: "prj-6",
+    slug: "jembatan-kali-ciyokot",
+    title: "Penggantian Jembatan Kali Ciyokot",
+    category: "infrastruktur",
+    client: "Dinas PU Kabupaten Mitra Abadi",
+    location: "Kabupaten Mitra Abadi, Jawa Tengah",
+    year: 2024,
+    duration: "10 bulan",
+    value: "65000000000",
+    thumbnail: "/images/portfolio/project-2.jpg",
+    heroImage: "/images/portfolio/project-2.jpg",
+    gallery: ["/images/portfolio/project-2.jpg", "/images/portfolio/project-4.jpg", "/images/portfolio/project-1.jpg"],
+    problem:
+      "Jembatan existing berumur 40 tahun mengalami penurunan daya dukung. Perlu penggantian total dengan jembatan komposit baru tanpa memutus akses utama warga selama lebih dari 3 hari.",
+    solution:
+      "Pembangunan pengalih sementara (bailey bridge) di sisi hulu, kemudian pembongkaran dan pemasangan girder komposit via launching truss. Pekerjaan sungai dikendalikan dengan cofferdam untuk menangani debit air musim hujan.",
+    impact: [
+      "Akses warga hanya terputus 2 hari (masa bailey bridge)",
+      "Beban rencana meningkat menjadi kelas A (20 ton)",
+      "Selesai 3 minggu sebelum batas waktu kontrak",
+      "Penilaian mutu akhir dengan nilai 94/100 oleh pengawas",
+    ],
+    relatedServiceSlug: "pengadaan-material",
+    tags: ["Jembatan", "Komposit", "Struktur", "Infrastruktur"],
+  },
+];
+
+export const getPortfolioBySlug = (slug: string): PortfolioItem | undefined =>
+  portfolioItems.find((p) => p.slug === slug);
